@@ -18,26 +18,18 @@ body {
 }
 
 #my-games {
-    width: 580px;
-    height: 264px;
     margin-bottom: 20px;
     background-color: var(--bg-card);
-    border-image: linear-gradient(to top #44E6AE, #9572FC, #E0D45D); 
     border-radius: 25px;
 }
 
 #channel-list {
-    width: 580px;
-    height: 214px;
     margin-bottom: 20px;
     background-color: var(--bg-card);
-    border-image: linear-gradient(to top #44E6AE, #9572FC, #E0D45D); 
     border-radius: 25px;
 }
 
 #my-redes {
-    width: 580px;
-    height: 176px;
     margin-bottom: 20px;
     background-color: var(--bg-card);
     border-radius: 25px;
@@ -54,32 +46,38 @@ body {
 
 .cards ul {
     display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
     list-style: none;
 }
 
 .cards h2 {
-    margin-left: 15px;
-    margin-top: 19px;
+    letter-spacing: -0.47px;
+    margin-bottom: 5px;
     color: white;
 }
 
 .cards p {
+    margin-bottom: 10px;
     color: #A1A1AA;
-    margin-left: 15px;
 }
 
 .my-games img {
     border-radius: 10px;
-    margin: 15px 15px;
 }
 
 .channel-list img, .my-redes img {
     border-radius: 70px;
-    margin: 15px 15px;
 }
 
 .cards img:hover {
     transform: scale(1.1);
+}
+
+.card {
+    padding: 32px;
+    padding-top: 24px;
 }
 
 .avatar-linear-gradient {
@@ -92,17 +90,14 @@ body {
 @media (max-width: 540px) {
     #my-games {
         width: 380px;
-        height: 264px;
     }
     
     #channel-list {
         width: 380px;
-        height: 214px;
     }
     
     #my-redes {
         width: 380px;
-        height: 148px;
     }
 }
 
@@ -110,13 +105,17 @@ header img {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 57%;
+    border-radius: 50%;
     margin: 15px auto;
 }
 
 main {
-    display: flex;
+    max-width: 580px;
+    width: 90%;
+    margin: auto;
+
+    display: grid;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    gap: 24px;
 }
