@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100;1,300;1,400;1,600;1,700&display=swap');
+       
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root {
+    --bg-card: #2a2634;
+    --bg: #121214;
+}
+
+body {
+    background: url("../images/Fundo.jpg") top no-repeat;
+    background-size: cover;
+    background-color: var(--bg);
+}
+
+#my-games {
+    width: 580px;
+    height: 264px;
+    margin-bottom: 20px;
+    background-color: var(--bg-card);
+    border-image: linear-gradient(to top #44E6AE, #9572FC, #E0D45D); 
+    border-radius: 25px;
+}
+
+#channel-list {
+    width: 580px;
+    height: 214px;
+    margin-bottom: 20px;
+    background-color: var(--bg-card);
+    border-image: linear-gradient(to top #44E6AE, #9572FC, #E0D45D); 
+    border-radius: 25px;
+}
+
+#my-redes {
+    position: relative;
+    width: 580px;
+    height: 176px;
+    margin-bottom: 20px;
+    background-color: var(--bg-card);
+    border-radius: 25px;
+}
+
+#my-games, #channel-list, #my-redes {
+  background: linear-gradient(#2a2634, #2a2634) padding-box,
+  linear-gradient(90deg, #9572fc 0%, #43e7ad 50.52%, #e2d45c 100%) border-box;
+  border-top: 4px solid transparent;
+  border-radius: 2rem 2rem 0.8rem 0.8rem;
+}
+
+.my-games img {
+    border-radius: 10px;
+    margin: 15px 15px;
+}
+
+.channel-list img, .my-redes img {
+    border-radius: 70px;
+    margin: 15px 15px;
+}
+
+
+.avatar-linear-gradient {
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(90deg, #9572fc 0%, #43e7ad 50.52%, #e2d45c 100%) border-box;
+    border: 4px solid transparent;
+    border-radius: 60px;
+}
+
+@media (max-width: 540px) {
+
+    body {
+        background: url("../images/Fundo.jpg") center no-repeat;
+        background-size: cover;
+        background-color: #121214;
+    }
+
+    #my-games {
+        width: 380px;
+        height: 264px;
+        margin-bottom: 20px;
+        background-color: #2A2634;
+        background: linear-gradient(top 89.86deg, #9572FC 15.08%, #43E7AD 45.94%, #E1D55D 90.57%) border-box; 
+        border-radius: 25px;
+    }
+    
+    #channel-list {
+        width: 380px;
+        height: 214px;
+        margin-bottom: 20px;
+        background-color: #2A2634;
+        border-image: linear-gradient(to top #44E6AE, #9572FC, #E0D45D); 
+        border-radius: 25px;
+    }
+    
+    #my-redes {
+        width: 380px;
+        height: 148px;
+        margin-bottom: 20px;
+        background-color: #2A2634;
+        border-image: linear-gradient(to top #44E6AE, #9572FC, #E0D45D); 
+        border-radius: 25px;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+header img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 57%;
+    margin: 15px auto;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+h2 {
+    margin-left: 15px;
+    margin-top: 19px;
+    color: white;
+}
+
+p {
+    color: #A1A1AA;
+    margin-left: 15px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
