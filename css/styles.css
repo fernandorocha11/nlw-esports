@@ -29,7 +29,7 @@ body {
     border-radius: 25px;
 }
 
-#my-redes {
+#my-socials {
     margin-bottom: 20px;
     background-color: var(--bg-card);
     border-radius: 25px;
@@ -37,7 +37,7 @@ body {
 
 #my-games,
 #channel-list, 
-#my-redes {
+#my-socials {
   background: linear-gradient(#2a2634, #2a2634) padding-box,
   linear-gradient(90deg, #9572fc 0%, #43e7ad 50.52%, #e2d45c 100%) border-box;
   border-top: 4px solid transparent;
@@ -67,7 +67,7 @@ body {
     border-radius: 10px;
 }
 
-.channel-list img, .my-redes img {
+.channel-list img, .my-socials img {
     border-radius: 70px;
 }
 
@@ -96,7 +96,7 @@ body {
         width: 380px;
     }
     
-    #my-redes {
+    #my-socials {
         width: 380px;
     }
 }
@@ -114,7 +114,7 @@ main {
     width: 90%;
     margin: auto;
 
-    display: grid;
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
