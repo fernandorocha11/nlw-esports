@@ -17,32 +17,20 @@ body {
   background-color: var(--bg);
 }
 
-#my-games {
-  margin-bottom: 20px;
-  background-color: var(--bg-card);
-  border-radius: 25px;
-}
-
-#channel-list {
-  margin-bottom: 20px;
-  background-color: var(--bg-card);
-  border-radius: 25px;
-}
-
-#my-socials {
-  margin-bottom: 20px;
-  background-color: var(--bg-card);
-  border-radius: 25px;
-}
-
 #my-games,
 #channel-list,
 #my-socials {
-  background: linear-gradient(#2a2634, #2a2634) padding-box,
-    linear-gradient(90deg, #9572fc 0%, #43e7ad 50.52%, #e2d45c 100%) border-box;
-  border-top: 4px solid transparent;
-  border-radius: 2rem 2rem 0.8rem 0.8rem;
+  margin-bottom: 20px;
+  border-radius: 25px;
 }
+
+.card {
+  background: linear-gradient(#2a2634, #2a2634) padding-box,
+    linear-gradient(90deg,#34e89e, #0f3443 100%) border-box;
+  border-top: 4px solid transparent;
+  border-radius: 10px;
+}
+
 
 .cards ul {
   display: flex;
@@ -110,6 +98,11 @@ header img {
   margin: 15px auto;
 }
 
+
+header img:hover {
+  transform: scale(1.1);
+}
+
 main {
   max-width: 580px;
   width: 90%;
@@ -119,4 +112,12 @@ main {
   justify-content: center;
   align-items: center;
   gap: 24px;
+}
+
+footer {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+
+  color: #a1a1aa;
 }
