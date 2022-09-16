@@ -2,7 +2,7 @@
 
 *Projeto foi desenvolvido durante um evento. NLW (Next Level Week) da [Rocketseat](https://rocketseat.com.br)*
 - Projeto onde mostra meus jogos, canais preferidos e minhas redes de contato.
-- Você pode visualizar o projeto em [NLW ESports](https://fernandorocha11.github.io/NLW-ESports)
+- Você pode visualizar o projeto em <a target="_blank" href="https://fernandorocha11.github.io/NLW-ESports">NLW ESports</a>
 
 ![img](https://i.imgur.com/kDKXnBA.png)
 
