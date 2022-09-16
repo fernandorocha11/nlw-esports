@@ -1,6 +1,4 @@
 # NLW ESports (Rocketseat)
-> Trilha Explorer
-
 
 *Projeto foi desenvolvido durante um evento. NLW (Next Level Week) da [Rocketseat](https://rocketseat.com.br)*
 - Projeto onde mostra meus jogos, canais preferidos e minhas redes de contato.
