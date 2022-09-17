@@ -14,4 +14,4 @@
   
 ## Layout 
 
-Você pode ver o layout do projeto pelo figma atráves desse link: [Layout](https://www.figma.com/community/file/1102912263666619803)
+Você pode ver o layout do projeto pelo figma atráves desse link: [Layout](https://www.figma.com/community/file/1150897317533332617)
